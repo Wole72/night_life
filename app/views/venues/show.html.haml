@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Title:
+  = @venue.title
+%p
+  %b Address:
+  = @venue.address
+%p
+  %b Description:
+  = @venue.description
+
+= link_to 'Edit', edit_venue_path(@venue)
+\|
+= link_to 'Back', venues_path

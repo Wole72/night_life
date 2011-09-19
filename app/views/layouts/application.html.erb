@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NightLife</title>
+      <%= stylesheet_link_tag    "application" %>
+      <%= javascript_include_tag "application" %>
+      <%= csrf_meta_tags %>
+   </head>  
+ 
+<body>
+<table width="1500" border="0">
+<tr>
+<td colspan="2" style="background-color:	#008000;">
+<h1 align="center">Tampa NightLife LetGo!!!!!!!!!!!!!!!!!!!!</h1>
+</td>
+</tr>
+
+<tr valign="top">
+<td style="background-color:#57FEFF;width:100px;text-align:top;">
+<b>Upcoming Events</b>
+
+<br />
+HTML<br />
+CSS<br />
+JavaScript
+</td>
+
+<td id='content' style="background-color:#eeeeee;height:200px;width:400px;text-align:top;">
+Content goes here</td>
+</tr>
+
+<tr>
+<td colspan="2" style="background-color:#FFA500;text-align:center;">
+I'm_Juggernaut.com</td>
+</tr>
+</table>
+
+<%= yield %>
+
+</body>
+
+
+
+
+</html>
+
